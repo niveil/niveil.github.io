@@ -20,12 +20,11 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
-$theme-primary: #F05F40;
-$theme-dark: #222;
+$theme-primary:    #F05F40;
+$theme-dark:       #222;
 
 // Width of the content area
 $content-width:    800px !default;
-
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
@@ -42,9 +41,9 @@ $on-laptop:        800px !default;
 @import
   "partials/_mixins",
   "partials/base",
-  "partials/skills",
   "partials/layout",
   "partials/syntax-highlighting",
   "partials/_typography",
-  "partials/_header"
+  "partials/_header",
+  "partials/skills"
 ;

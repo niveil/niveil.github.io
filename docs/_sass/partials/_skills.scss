@@ -1,3 +1,13 @@
-.light {
-    color: red;
+section {
+    align-items: center;
+    hr {
+        border-color: $theme-primary;
+        border-width: 3px;
+        max-width: 50px;
+        margin: 30px auto;
+    }
+    
+    hr.light {
+        border-color: white;
+    }
 }
