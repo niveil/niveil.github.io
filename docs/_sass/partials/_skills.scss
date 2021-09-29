@@ -1,7 +1,7 @@
 section {
     align-items: center;
     hr {
-        border-color: $theme-primary;
+        border-color: $brand-color;
         border-width: 3px;
         max-width: 50px;
         margin: 30px auto;
@@ -11,7 +11,7 @@ section {
         border-color: white;
     }
     .fa-color-primary {
-        color: $theme-primary;
+        color: $brand-color;
     }
     .skill-text {
         .text-muted {
@@ -44,14 +44,14 @@ section {
 
     .bar-animation::before {
         content:  attr(data-skill);
-        background-color: $theme-primary;
+        background-color: $brand-color;
         display: inline-block;
         padding: 5px 0 5px 10px;
         border-radius: inherit;
-        animation: load 2s 1s;
-        -webkit-animation: load 2s 1s;
-        -moz-animation: load 2s 1s;
-        -o-animation: load 2s 1s;
+        animation: load 2s 0;
+        -webkit-animation: load 2s 1;
+        -moz-animation: load 2s 1;
+        -o-animation: load 2s 1;
         
     }
     .bar{
@@ -60,14 +60,14 @@ section {
         border-radius: 15px;
         margin-bottom: 5px;
         font-size: 14px;
-        color: $grey-color-dark;
+        color: $background-color;
         line-height: $base-line-height;
         font-weight: bold;
         // text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     }
     .bar::before{
         // content:  attr(data-skill);
-        // background-color: $theme-primary;
+        // background-color: $brand-color;
         // display: inline-block;
         // padding: 5px 0 5px 10px;
         // border-radius: inherit;
@@ -75,10 +75,10 @@ section {
     }
     
     .bar.front::before{
-        background-color: $theme-primary;
+        background-color: $brand-color;
     }
     .bar.back::before{
-        background-color: $theme-primary;
+        background-color: $brand-color;
     }
     
     .bar.learning::before{
