@@ -1,7 +1,7 @@
 section {
     align-items: center;
     hr {
-        border-color: $brand-color;
+        border-color: $theme-secondary;
         border-width: 3px;
         max-width: 50px;
         margin: 30px auto;
@@ -11,7 +11,7 @@ section {
         border-color: white;
     }
     .fa-color-primary {
-        color: $brand-color;
+        color: $theme-secondary;
     }
     .skill-text {
         .text-muted {
@@ -44,7 +44,7 @@ section {
 
     .bar-animation::before {
         content:  attr(data-skill);
-        background-color: $brand-color;
+        background-color: $theme-secondary;
         display: inline-block;
         padding: 5px 0 5px 10px;
         border-radius: inherit;
@@ -67,7 +67,7 @@ section {
     }
     .bar::before{
         // content:  attr(data-skill);
-        // background-color: $brand-color;
+        // background-color: $theme-secondary;
         // display: inline-block;
         // padding: 5px 0 5px 10px;
         // border-radius: inherit;
@@ -75,10 +75,10 @@ section {
     }
     
     .bar.front::before{
-        background-color: $brand-color;
+        background-color: $theme-secondary;
     }
     .bar.back::before{
-        background-color: $brand-color;
+        background-color: $theme-secondary;
     }
     
     .bar.learning::before{

@@ -21,6 +21,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 $theme-primary:    #F05F40;
+$theme-secondary:  #2a7ae2;
 $theme-dark:       #222;
 
 // Width of the content area
@@ -45,5 +46,6 @@ $on-laptop:        800px !default;
   "partials/syntax-highlighting",
   "partials/_typography",
   "partials/_header",
-  "partials/skills"
+  "partials/skills",
+  "partials/about"
 ;
