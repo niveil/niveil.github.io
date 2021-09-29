@@ -1,17 +1,17 @@
-skill,name,level,confidence,professional,personal,note
-BA,VBA for Excel,9,proficient,"Fiserv, Itron",,Created macros for reporting automation
-BA,MiniTab,8,advanced,Itron,,Statistics software
-BA,Tableau,5,intermediate,UK,,Connected data sets and creted dashboards
-BA,PowerBi,3,basic,UK,,Evaluated for UK department usage
-Code,HTML,9,proficient,UK,,
-Code,CSS,9,proficient,UK,,
-Code,JS / jQuery,8,advanced,UK,,
-Code,PHP,7,advanced,UK,,
-Code,SQL,5,intermediate,"Fiserv, UK, Itron",,Search/Update database records
-Code,Python,3,basic,Itron,,Used to automate mundane tasks
-Frameworks,Drupal,7,advanced,UK,,Managed UK College of Medicine domain and 60+ subdomains
-Frameworks,SharePoint,7,advanced,"UK, Itron",,Managed UK College of Medicine domain and 60+ subdomains
-Frameworks,Vue.js,5,intermediate,Awesome Inc.,"Tracker, Simon Clone",Personal projects 
-Frameworks,Twig,5,intermediate,UK,"Tracker, Simon Clone",Personal projects 
-Frameworks,Laravel,5,intermediate,Awesome Inc.,Tracker,Learned and used during bootcamp
-Frameworks,Wordpress,3,basic,UK,,Corrected problems with one off sites
+skill,name,id,level,confidence,professional,personal,note
+BA,VBA/Excel,VBA,9,proficient,"Fiserv, Itron",,Created macros for reporting automation
+BA,MiniTab,MiniTab,8,advanced,Itron,,Statistics software
+BA,Tableau,Tableau,5,intermediate,UK,,Connected data sets and creted dashboards
+BA,PowerBI,PowerBI,3,basic,UK,,Evaluated for UK department usage
+Code,HTML,HTML,9,proficient,UK,,
+Code,CSS,CSS,9,proficient,UK,,
+Code,JS / jQuery,JS,8,advanced,UK,,
+Code,PHP,PHP,7,advanced,UK,,
+Code,SQL,SQL,5,intermediate,"Fiserv, UK, Itron",,Search/Update database records
+Code,Python,Python,3,basic,Itron,,Used to automate mundane tasks
+Frameworks,Drupal,Drupal,7,advanced,UK,,Managed UK College of Medicine domain and 60+ subdomains
+Frameworks,SharePoint,SharePoint,7,advanced,"UK, Itron",,Managed UK College of Medicine domain and 60+ subdomains
+Frameworks,Vue.js,Vue,5,intermediate,Awesome Inc.,"Tracker, Simon Clone",Personal projects 
+Frameworks,Twig,Twig,5,intermediate,UK,"Tracker, Simon Clone",Personal projects 
+Frameworks,Laravel,Laravel,5,intermediate,Awesome Inc.,Tracker,Learned and used during bootcamp
+Frameworks,Wordpress,Wordpress,3,basic,UK,,Corrected problems with one off sites
