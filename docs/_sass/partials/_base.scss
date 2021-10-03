@@ -28,8 +28,18 @@
    flex-direction: column;
  }
  
- 
- 
+ /**
+  * Section styling
+  */
+  .section-bg-primary{
+    background-color: $theme-primary;
+  }
+  .section-bg-secondary{
+    background-color: $theme-secondary;
+  }
+  .section-bg-brand{
+    background-color: $brand-color;
+  }
  /**
   * Set `margin-bottom` to maintain vertical rhythm
   */
