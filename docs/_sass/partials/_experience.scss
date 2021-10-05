@@ -1,0 +1,82 @@
+.experience-tl {
+  .default-tl {
+    content: '';
+    position: absolute;
+    margin-left: 24%;
+    width: 5px;
+    background-color: transparent;
+    height: 1500px;
+  }
+  .draw-tl {
+    width: 5px;
+    height: 0;
+    position: absolute;
+    margin-left: 24%;
+    background-color: $brand-color;
+    top: 95px;
+  }
+
+  ul li {
+    list-style-type: none;
+    position: relative;
+    height: 400px;
+
+    // display: none;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: inherit;
+    background: transparent;
+    transition: all 1s ease-in;
+  }
+}
+
+
+.fa-icon-bg {
+  border: 5px solid $brand-color;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: $background-color;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+}
+  100%{
+      opacity:1;
+  }
+}
+@keyframes fade-out {
+  0% {
+      transform: translateY(0);
+      opacity: 1;
+}
+  100%{
+      transform: translateY(20%);
+      opacity:0;
+  }
+}
+.exp {
+  visibility: hidden;
+  animation: fade-out 1s 1;
+
+}
+.in-view {
+  // content: '';
+  // width: 5px;
+  // height: 200px;
+  // position: absolute;
+  // margin-left: 24%;
+  // background-color: $brand-color;
+  // top: 95px;
+  animation: fade-in .5s 1;
+  visibility: visible;
+}
