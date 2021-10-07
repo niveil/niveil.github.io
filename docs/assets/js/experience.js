@@ -12,7 +12,6 @@ var items = $(".experience-tl li"),
             midPosition = position + (midPoint + 50);
 
         if( liPosition <= (midPosition)){
-          console.log("Trigger");
           $(this).addClass('in-view');
         }
       });

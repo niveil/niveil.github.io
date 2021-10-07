@@ -37,7 +37,10 @@
 //     transition: all 1s ease-in;
 //   }
 // }
-
+$section-bg-color: $grey-color-light;
+#experience {
+  background-color: $section-bg-color;
+}
 ul li {
   list-style-type: none;
   min-height: 350px;
@@ -46,7 +49,7 @@ ul li {
   border: 5px solid $brand-color;
   border-radius: 50px;
   padding: 15px;
-  background-color: $background-color;
+  background-color: $section-bg-color;
 }
 
 i, div.exp-content {
