@@ -38,12 +38,27 @@
 //   }
 // }
 
-
+ul li {
+  list-style-type: none;
+}
 .fa-icon-bg {
   border: 5px solid $brand-color;
   border-radius: 50px;
   padding: 15px;
   background-color: $background-color;
+}
+
+i, div.exp-content {
+  visibility: hidden;
+}
+
+.in-view i {
+  animation: fade-in 1s 1;
+  visibility: visible;
+}
+.in-view div.exp-content {
+  animation: fade-right 1s 1;
+  visibility: visible;
 }
 
 @keyframes fade-in {
@@ -53,7 +68,6 @@
   }
   100%{
       opacity: 1;
-      // visibility: visible;
   }
 }
 
@@ -66,31 +80,4 @@
       opacity: 1;
       transform: translateX(0);
     }
-}
-
-i, div.exp-content {
-  visibility: hidden;
-}
-
-.in-view i {
-  // content: '';
-  // width: 5px;
-  // height: 200px;
-  // position: absolute;
-  // margin-left: 24%;
-  // background-color: $brand-color;
-  // top: 95px;
-  animation: fade-in 1s 1;
-  visibility: visible;
-}
-.in-view div.exp-content {
-  // content: '';
-  // width: 5px;
-  // height: 200px;
-  // position: absolute;
-  // margin-left: 24%;
-  // background-color: $brand-color;
-  // top: 95px;
-  animation: fade-right 1s 1;
-  visibility: visible;
 }
