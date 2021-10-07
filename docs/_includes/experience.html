@@ -15,6 +15,44 @@
                         <span class="draw-tl"></span>
                     </div>
                  </div>
+                {% assign experience = site.experience | sort: "order", "last" %}
+                {% for exp in experience %}
+                <li class="exp">
+                    <aritcle id='{{ exp.ident }}'>
+                        <div class="row align-items-center">
+                            <div class="col-lg-2 col-lg-offset-2">
+                                <i class="fas {% if exp.cat == "professional" %} fa-briefcase {% else %} fa-book-reader {% endif %} fa-4x fa-color-primary fa-icon-bg"></i>
+                            </div>
+                            <div class="col-lg-7 col-lg-offset-1 exp-content">
+                                <h3>{{ exp.title }}</h3>
+                                <h5><strong>{{ exp.entity }}</strong> | <em>{{ exp.location }}</em></h5>
+                                <p>{{ exp.description }}</p>
+                            </div>
+                        </div>
+                    </aritcle>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- <section class="" id="experience">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Experience</h2>
+                <hr class="section-bg-secondary">
+            </div>
+        </div>
+
+        <div id="exp" class="experience-tl">
+            <ul>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-2">
+                        <span class="default-tl"></span>
+                        <span class="draw-tl"></span>
+                    </div>
+                 </div>
                 <li class="exp">
                     <aritcle id="fiserv">
                         <div class="row align-items-center">
@@ -86,4 +124,4 @@
             </ul>
         </div>
     </div>
-</section>
+</section> -->
