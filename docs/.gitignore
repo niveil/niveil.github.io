@@ -3,4 +3,4 @@ _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
-md_templates
+md_templates/*
