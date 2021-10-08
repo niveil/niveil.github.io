@@ -1,59 +1,9 @@
 section {
-    .portfolio-container {
-        width: 96%;
-        margin: 2%;
-        padding-bottom: 96%;
-        height: 100%;
-        position: relative;
-        float: left;
-        cursor: pointer;
-        overflow: hidden;
-        
+    .text-white{
+        color: $theme-white !important;
     }
-    .portfolio-container::after {
-        content: '';
-        position: absolute;
-        background-color: #000;
-        opacity: 0;
-        z-index: 55;
-        width: 100%;
-        height: 100%;
-        transition: all .15s ease-out;
-        
-    }
-    .portfolio-container:hover::after {
-        background-color: #000;
-        opacity: 0.7;
-    }
-    .example .portfolio-container .caption {
-        position: absolute;
-        z-index: 60;
-        width: 90%;
-        margin-left: 5%;
-        top: 50%;
-        transform: scale(3);
-        text-align: center;
-        transition: all .15s ease-out;
-        color: $theme-primary;
-        font-size: 1.4em;
-        opacity: 0;
-    }
-    .portfolio-container:hover .caption {
-        transform: scale(1) translate(0%, -50%);
-        opacity: 1;
+    .hr-gray {
+        border-color: $theme-primary !important;
     }
 
-    .portfolio-container img {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        height:100%;
-        transform: translate(-50%, -50%);
-        z-index: 50;
-        transition: all .15s ease-out;
-    }
-    .portfolio-container:hover img {
-        height: 150%;
-        width: 150%;
-    }
 }

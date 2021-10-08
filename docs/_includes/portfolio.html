@@ -2,19 +2,24 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2 class="section-heading">Some of My Work</h2>
-                <hr class="light">
+                <h2 class="section-heading text-white">Some of My Work</h2>
+                <hr class="hr-gray">
+                <p> <h3 class="text-white">Professional Examples | University of Kentucky</h3><br> 
+                    <span class="text-white">As a Drupal administrator for the College of Medicine website, I assisted with content changes,
+                        granted user access, and managed module updates on the site with 65+ active subdomains. I also 
+                        focused on improving accessibility standards, increasing page responsiveness, and updating the 
+                        look & function of pages.</span></p>
             </div>
         </div>
+        {% for example in site.portfolio %}
         <div class="row">
-            {% for example in site.portfolio %}
             <div class="col-lg-4 example">
                 <div class="portfolio-container">
-                    <div class="caption">{{ example.name }}</div>
+                    <div class="text-white caption">{{ example.name }}</div>
                     <img src="{{ example.image_location }}" alt="">
                 </div>
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </section>
