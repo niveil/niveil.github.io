@@ -2,7 +2,7 @@ section {
     .text-white{
         color: $theme-white !important;
     }
-    .hr-gray {
+    .hr-white {
         border-color: $theme-white!important;
     }
     .port-section {
@@ -22,6 +22,19 @@ section {
         border: 1px solid darkgrey;
         border-radius: 14px;
         box-shadow: black 1px 3px 15px;
+    }
+
+    .personal-projects {
+        .pp-img {
+            display: inline;
+            width: auto;
+            height: 250px;
+            margin: 0%;
+        }
+        .pp-img:hover {
+            background-color: black;
+            opacity: 0.5;
+        }
     }
 }
 
