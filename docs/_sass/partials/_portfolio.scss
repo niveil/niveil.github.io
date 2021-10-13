@@ -3,7 +3,45 @@ section {
         color: $theme-white !important;
     }
     .hr-gray {
-        border-color: $theme-primary !important;
+        border-color: $theme-white!important;
+    }
+    .port-section {
+        margin: 40px 15px;
     }
 
+    .prof-wrapper {
+        padding: 5px 15px 15px 15px;
+        // border: 1px solid darkgrey;
+        color: $theme-white !important;
+        // visibility: hidden;
+        // background-color: ;
+        // border-radius: 14px;
+        // box-shadow: black 1px 3px 15px;
+    }
+    .img-wrapper {
+        border: 1px solid darkgrey;
+        border-radius: 14px;
+        box-shadow: black 1px 3px 15px;
+    }
 }
+
+.portfolio-zoom-in {
+  
+    /* start state */
+    .portfolio-with-anim {
+      opacity: 0;
+      transition: all 0.3s ease-in-out; 
+      transform: scale(1.3); 
+    }
+    /* animate in */
+    &.portfolio-ready {
+      .portfolio-with-anim {
+        opacity: 1;
+        transform: scale(1); 
+      }
+      &.portfolio-bg {
+        opacity: 0.8;
+      }
+    }
+    
+  }
