@@ -11,19 +11,16 @@
                         look & function of pages.</span></p>
             </div>
         </div>
-        {% for example in site.portfolio %}
-        
-            
-
-        <div class="row align-items-center port-section">
-            
+        {% assign projects = site.portfolio %}
+        {% for example in projects %}
+            {% if example.cat == "professional" %}
+            <div class="row align-items-center port-section">
                 <div class="col-lg-4 example portfolio-zoom-in">
                     <div class="portfolio-container portfolio-with-anim">
                         
                         <img class="img-wrapper" src="{{ example.image_location }}" alt="">
                     </div>
                 </div>
-                
                 <div class="col-lg-7 col-lg-offset-1">
                     <div class="prof-wrapper">
                         <h3>{{ example.name }}</h3>
@@ -31,38 +28,37 @@
                         <p class="">{{ example.solution }}</p>
                     </div>
                 </div>
-        </div>
+            </div>
+            {% endif %}
         {% endfor %}
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <p> <h3 class="text-white">Personal Examples</h3><br> 
-                    <span class="text-white"></span></p>
+                    <span class="text-white"></span>
+                </p>
             </div>
-            <div class="personal-projects">
-                <div class="project-box">
-                    <div class="caption">
-                        <h2>Simon Clone</h2>
-                        <p><span>Something about this project</span></p>
-                        <p><span>Technology: HTML - CSS - JS</span></p>
-                        <div class="inline">
-                            <a class="btn btn-primary text-white" href="#">Demo</a>
-                            <a class="btn btn-primary text-white" href="#">Code</a>
+                <div class="personal-projects">
+                {% assign projects = site.portfolio %}
+                {% for project in projects %}
+                    {% if project.cat == "personal" %}
+                
+                    <div class="project-box">
+                        <div class="caption">
+                            <h2>{{ project.name}}</h2>
+                            <p><span>{{ project.description}}</span></p>
+                            <p><span>{{ project.tech}}</span></p>
+                            <div class="inline">
+                                <a class="btn btn-primary text-white" href="{{project.demo}}">Demo</a>
+                                <a class="btn btn-primary text-white" href="{{project.code}}">Code</a>
+                            </div>
                         </div>
+                        <img class="pp-img" src="{{project.image_location}}" alt="{{project.image_alt}}">
                     </div>
-                    <img class="pp-img" src="assets/img/portfolio/OU_simon_screenshot.png" alt="">
-                </div>
-                <div class="project-box">
-                    <div class="caption">Connect Four</div>
-                    <img class="pp-img" src="assets/img/portfolio/connectFour.png" alt="">
-                </div>
-                <div class="project-box">
-                    <div class="caption">Tracker</div>
-                    <img class="pp-img" src="assets/img/portfolio/trackerScreenShot.png" alt="">
-                </div>
+                    {% endif %}
+                {% endfor %}
             </div>
-            
         </div>
     </div>
     
