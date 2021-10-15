@@ -16,7 +16,7 @@
                     <div class="text-left skills-pd">
                         {% for skill in site.data.skills %}
                             {% if skill.skill =="Code" %}
-                                <div id="{{ skill.id}}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}"></div>
+                                <div id="{{ skill.id}}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}" data-toggle="tooltip" data-placement="top" title="{{ skill.professional}} | {{skill.level}}/10 ({{skill.confidence}}) - {{ skill.note }}"></div>
                             {% endif %}
                         {% endfor %}
                     </div>
@@ -29,7 +29,7 @@
                     <div class="text-left skills-pd">
                         {% for skill in site.data.skills %}
                             {% if skill.skill =="Frameworks" %}
-                                <div id="{{ skill.id }}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}"></div>
+                                <div id="{{ skill.id }}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}" data-toggle="tooltip" data-placement="top" title="{{ skill.professional}} | {{skill.level}}/10 ({{skill.confidence}}) - {{ skill.note }}"></div>
                             {% endif %}
                         {% endfor %}
                     </div>
@@ -42,7 +42,7 @@
                     <div class="text-left skills-pd">
                         {% for skill in site.data.skills %}
                             {% if skill.skill =="BA" %}
-                                <div id="{{ skill.id}}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}"></div>
+                                <div id="{{ skill.id}}" class="bar text-muted {{ skill.confidence }}" data-skill= "{{ skill.name }}" data-toggle="tooltip" data-placement="top" title="{{ skill.professional}} | {{skill.level}}/10 ({{skill.confidence}}) - {{ skill.note }}"></div>
                             {% endif %}
                         {% endfor %}
                     </div>

@@ -20,3 +20,9 @@ for (let index = 0; index < skills.length; index++) {
 
 clientWindow.observe(document.querySelector('.skills-wrapper'));
 }
+
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+// $('#HTML').tooltip('show');
