@@ -1,17 +1,17 @@
 skill,name,id,level,confidence,professional,personal,note
-BA,VBA/Excel,VBA,9,proficient,"Fiserv, Itron",,Created macros for reporting automation
-BA,MiniTab,MiniTab,8,advanced,Itron,,Statistics software
-BA,Tableau,Tableau,5,intermediate,UK,,Connected data sets and creted dashboards
-BA,PowerBI,PowerBI,3,basic,UK,,Evaluated for UK department usage
-Code,HTML,HTML,9,proficient,UK,,
-Code,CSS,CSS,9,proficient,UK,,
-Code,JS/jQuery,JS,8,advanced,UK,,
-Code,PHP,PHP,7,advanced,UK,,
-Code,SQL,SQL,5,intermediate,"Fiserv, UK, Itron",,Search/Update database records
-Code,Python,Python,3,basic,Itron,,Used to automate mundane tasks
-Frameworks,Drupal,Drupal,7,advanced,UK,,Managed UK College of Medicine domain and 60+ subdomains
-Frameworks,SharePoint,SharePoint,7,advanced,"UK, Itron",,Managed UK College of Medicine domain and 60+ subdomains
-Frameworks,Vue.js,Vue,5,intermediate,Awesome Inc.,"Tracker, Simon Clone",Personal projects 
-Frameworks,Twig,Twig,5,intermediate,UK,"Tracker, Simon Clone",Personal projects 
-Frameworks,Laravel,Laravel,5,intermediate,Awesome Inc.,Tracker,Learned and used during bootcamp
-Frameworks,Wordpress,Wordpress,3,basic,UK,,Corrected problems with one off sites
+BA,VBA/Excel,VBA,9,proficient,"Fiserv, Itron",,Created macros for reporting automation.
+BA,MiniTab,MiniTab,8,advanced,Itron,,Software used to conduct statistical analysis.
+BA,Tableau,Tableau,5,intermediate,UK,,Created dashboards for usage evaluation.
+BA,PowerBI,PowerBI,3,basic,UK,,Created dashboards for usage evaluation.
+Code,HTML,HTML,9,proficient,"UK, Awesome Inc.",,Created custom feature in UK Drupal site.
+Code,CSS,CSS,9,proficient,"UK, Awesome Inc.",,Created custom feature in UK Drupal site.
+Code,JS / jQuery,JS,8,advanced,"UK, Awesome Inc.",,Created custom feature in UK Drupal site.
+Code,PHP,PHP,7,advanced,"UK, Awesome Inc.",,Created custom feature in UK Drupal site.
+Code,SQL,SQL,5,intermediate,"Fiserv, UK, Itron",,Used to search/update database records.
+Code,Python,Python,3,basic,Itron,,Created basic program for file change automation.
+Frameworks,Drupal,Drupal,7,advanced,UK,,Managed UK College of Medicine domain and 60+ subdomains.
+Frameworks,SharePoint,SharePoint,7,advanced,"UK, Itron",,Setup workflows and created sites to report data analysis.
+Frameworks,Vue.js,Vue,5,intermediate,Awesome Inc.,"Tracker, Simon Clone",Personal project to learn and improve.
+Frameworks,Twig,Twig,5,intermediate,UK,"Tracker, Simon Clone",Personal project to learn and improve.
+Frameworks,Laravel,Laravel,5,intermediate,Awesome Inc.,Tracker,Personal project to learn and improve.
+Frameworks,Wordpress,Wordpress,3,basic,UK,,Assisted staff with personal websites.
