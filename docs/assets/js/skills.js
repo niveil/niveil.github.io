@@ -13,7 +13,7 @@ for (let index = 0; index < skills.length; index++) {
                     tar.classList.add('bar-animation');
                     return;
                 }
-                tar.classList.remove('bar-animation');
+                // tar.classList.remove('bar-animation');
             
         });
     });
